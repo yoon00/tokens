@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "global":"token-transformer data/tokens.json theme/global.json global",
+    "build":"style-dictionary build --config config/style-dictionary.config.js"
+  },
+  "dependencies": {
+    "token-transformer": "^0.0.24",
+    "style-dictionary": "^3.7.1"
+  }
+}
